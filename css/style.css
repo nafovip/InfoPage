@@ -363,7 +363,7 @@ html, body {
     .contact-page__row .row__contents{margin: auto;}
     .contact-page__row{flex-direction: column;}
     .contact-page__border{padding-bottom: 50px;margin-top: 60px;}
-    .contact-page__descriptions_text{font-size: 14px;margin: 0px auto;}
+    .contact-page__descriptions_text{font-size: 10px;margin: 0px auto;}
     /*footer------*/
     .footer__header{font-size: 12px;}
 }
