@@ -10,7 +10,7 @@ const Header = ({ siteTitle, isMobile}) => {
 				{isMobile ? (
 					<div className="header__container">
 						<a class="header__logo" href="#"><img src={mylogo} alt="logo" className="logo__image" /></a>			
-						<a class="header__button" href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f"><p class="button__text">buy now</p></a>
+						<a class="header__button" href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" target="_blank"><p class="button__text">buy now</p></a>
 					</div>
 				) : (
 					<Slide up duration={2000}>
