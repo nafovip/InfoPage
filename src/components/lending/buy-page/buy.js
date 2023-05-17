@@ -74,7 +74,7 @@ export const Buy = ({ siteTitle, isMobile }) => {
 									<p class="row__description_desc"> {inView && !isTypingComplete ? (
 										<Typist avgTypingDelay={15} onTypingDone={handleTypingDone}
 											startDelay={100} cursor={{ show: false }}>
-											Open the <a href="https://app.uniswap.org/" class="_line" target="_blank">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.
+											Open the <a href="https://app.uniswap.org/" class="_line" target="_blank">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line" target="_blank">this link</a> for a pre-configured setup with $NAFO as received currency.
 										</Typist>) : (<>Open the <a href="https://app.uniswap.org/" class="_line" target="_blank">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.</>)}
 									</p>
 								</div>
