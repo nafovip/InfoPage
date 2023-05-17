@@ -16,7 +16,7 @@ export const About = ({ siteTitle, isMobile }) => {
 							<div class="about-page__description">
 								<p class="description_text">The $NAFO token has been created to raise money for Ukrainian Armed Forces and civilians affected by the russian aggression. We are a team of Ukrainian patriots who want to free their homeland and make Ukraine peaceful and prosperous again.</p>
 								<p class="description_text">Our goal is to maximize trading volumes of the $NAFO token, sending 4% from every transaction to the needs of Ukrainian people. The tax transfer is integrated into our smart contract and can be easily tracked on the blockchain explorer. The project team, nor anyone else, does not take any additional fees from trading $NAFO.</p>
-								<p class="description_text">The donations will be sent to the most trusted and efficient funds raising money for Ukraine, such as <a href="https://prytulafoundation.org/en" target="_blank">Serhiy Prytula Foundation</a> or SaveLife.in.ua. </p>
+								<p class="description_text">The donations will be sent to the most trusted and efficient funds raising money for Ukraine, such as <a href="https://prytulafoundation.org/en" class="_line" target="_blank">Serhiy Prytula Foundation</a> or SaveLife.in.ua. </p>
 							</div>
 						</div>
 					</div>
