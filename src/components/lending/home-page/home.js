@@ -27,7 +27,7 @@ export const Home = ({ siteTitle,isMobile }) => {
 					<ul class="soc-medias__links">
 						<Fade duration={2500}>
 							<li class="soc-medias__link">
-								<a href="https://twitter.com/nafovip" target="_blank"><Icon name="tw" fould="home" width={34} height={34} /></a>
+								<a href="#"><Icon name="tw" fould="home" width={34} height={34} /></a>
 							</li>
 							<li class="soc-medias__link">
 								<a href="#"><Icon name="tg" fould="home" width={45} height={34} /></a>
