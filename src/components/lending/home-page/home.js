@@ -12,14 +12,14 @@ export const Home = ({ siteTitle,isMobile }) => {
 						<p class="home-page__description">
 							The $NAFO token helps Ukrainian people and Ukrainian forces in their fight against the invaders. Buy $NAFO to become a fella and contribute to Ukraine's victory and well-being. Stop wasting your money on useless memecoins and make a real impact instead!
 						</p>
-						<p class="home-page__info">$NAFO contract adress: <br />0xa39E0742901fC51245d786DC955E96C1D8d188a2</p>
+						<p class="home-page__info">$NAFO contract adress: <br />0xAF59f6613920D98EF64A133b21B28495A63E808f</p>
 					</div>
 					) : (<Slide left duration={2000}>
 						<div>
 							<p class="home-page__description">
 								The $NAFO token helps Ukrainian people and Ukrainian forces in their fight against the invaders. Buy $NAFO to become a fella and contribute to Ukraine's victory and well-being. Stop wasting your money on useless memecoins and make a real impact instead!
 							</p>
-							<p class="home-page__info">$NAFO contract adress: <br />0xa39E0742901fC51245d786DC955E96C1D8d188a2</p>
+							<p class="home-page__info">$NAFO contract adress: <br />0xAF59f6613920D98EF64A133b21B28495A63E808f</p>
 						</div>
 					</Slide>)}
 				</div>
