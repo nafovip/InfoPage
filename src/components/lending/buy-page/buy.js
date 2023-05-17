@@ -32,7 +32,7 @@ export const Buy = ({ siteTitle, isMobile }) => {
 								<p class="row__description_desc"> {inView && !isTypingComplete ? (
 									<Typist avgTypingDelay={15} onTypingDone={handleTypingDone}
 										startDelay={100} cursor={{ show: false }}>If you are using a desktop, we suggest visiting <a href="https://metamask.io/" class="_line"> Metamask.io</a> and downloading their browser extension. For mobile, install any Ethereum wallet that can be connected to Uniswap.
-									</Typist>) : (<>If you are using a desktop, we suggest visiting <a href="https://metamask.io/" class="_line"> Metamask.io</a> and downloading their browser extension. For mobile, install any Ethereum wallet that can be connected to Uniswap</>)}
+									</Typist>) : (<>If you are using a desktop, we suggest visiting <a href="https://metamask.io/" class="_line" target="_blank"> Metamask.io</a> and downloading their browser extension. For mobile, install any Ethereum wallet that can be connected to Uniswap</>)}
 								</p>
 							</div>
 						</div>
