@@ -74,8 +74,8 @@ export const Buy = ({ siteTitle, isMobile }) => {
 									<p class="row__description_desc"> {inView && !isTypingComplete ? (
 										<Typist avgTypingDelay={15} onTypingDone={handleTypingDone}
 											startDelay={100} cursor={{ show: false }}>
-											Open the <a href="https://app.uniswap.org/" class="_line">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.
-										</Typist>) : (<>Open the <a href="https://app.uniswap.org/" class="_line">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.</>)}
+											Open the <a href="https://app.uniswap.org/" class="_line" target="_blank">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.
+										</Typist>) : (<>Open the <a href="https://app.uniswap.org/" class="_line" target="_blank">Uniswap app</a>, connect your wallet, and paste the $NAFO smart contract address. Or simply visit <a href="https://app.uniswap.org/#/swap?outputCurrency=0xaf59f6613920d98ef64a133b21b28495a63e808f" class="_line">this link</a> for a pre-configured setup with $NAFO as received currency.</>)}
 									</p>
 								</div>
 							</Fade>
@@ -96,7 +96,7 @@ export const Buy = ({ siteTitle, isMobile }) => {
 									<p class="row__description_desc"> {inView && !isTypingComplete ? (
 										<Typist avgTypingDelay={15} onTypingDone={handleTypingDone} startDelay={100} cursor={{ show: false }}>
 											Time to join $NAFO! Set the <a href="https://support.uniswap.org/hc/en-us/articles/8643879653261-What-is-Price-Slippage-"
-												class="_line">slippage</a> to at least 4-5%, enter how much $NAFO you want to buy, and press Swap. Pay the gas fee and wait for your transaction to be confirmed. Congratulations, you’re a fella now!
+												class="_line" target="_blank">slippage</a> to at least 4-5%, enter how much $NAFO you want to buy, and press Swap. Pay the gas fee and wait for your transaction to be confirmed. Congratulations, you’re a fella now!
 										</Typist>) : (<>Time to join $NAFO! Set the <a href="https://support.uniswap.org/hc/en-us/articles/8643879653261-What-is-Price-Slippage-"
 											class="_line">slippage</a> to at least 4-5%, enter how much $NAFO you want to buy, and press Swap. Pay the gas fee and wait for your transaction to be confirmed. Congratulations, you’re a fella now!</>)}
 									</p>
