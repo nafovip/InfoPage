@@ -34,7 +34,7 @@ export const Contact = ({ siteTitle }) => {
 				<Fade duration={2500}>
 					<div>
 						<p className="contact-page__descriptions_text0">Disclamer</p>
-						<p className="contact-page__descriptions_text">The $NAFO token has no affiliation with the Serhiy Prytula Charity Foundation, the NAFO meme or its creator, Kamil Dyszewski. The project does not constitute financial advice. The $NAFO team takes no responsibility for the token price action or security breaches that may occur during the use of the $NAFO token. Please be reminded that cryptocurrency trading is a high-risk activity and invest only the amount of money you are prepared to lose.</p>
+						<p className="contact-page__descriptions_text">The $NAFO token has no affiliation with the NAFO meme or its creator, Kamil Dyszewski. The project does not constitute financial advice. The $NAFO team takes no responsibility for the token price action or security breaches that may occur during the use of the $NAFO token. Please be reminded that cryptocurrency trading is a high-risk activity and invest only the amount of money you are prepared to lose.</p>
 					</div>
 				</Fade>
 			</div>
