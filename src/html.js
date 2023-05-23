@@ -14,7 +14,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} style={{backgroundColor: '#1D1D1D'}} /*style={{backgroundColor: '#000', overflow: "hidden"}}*/ id="___bd">
+      <body {...props.bodyAttributes} /*style={{backgroundColor: '#1D1D1D'}}*/ /*style={{backgroundColor: '#000', overflow: "hidden"}}*/ id="___bd">
         {props.preBodyComponents}
         <div
           key={`loader`}
@@ -42,7 +42,7 @@ export default function HTML(props) {
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
-          style={{display: "none"}}
+          /*style={{display: "none"}}*/
         />
         {props.postBodyComponents}
       </body>

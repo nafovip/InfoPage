@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Card from "./faq-card"
 
@@ -11,10 +11,10 @@ export const Faq = ({ siteTitle }) => {
 	};
     
     return (
-        <div class="faq-page" id="faq">
-			<div class="faq-page__container _container" ref={ref}>
-				<h1 class="faq-page__header header-text" data-aos="fade-up">FAQ</h1>
-				<div class="faq-page__descriptions">
+        <div className="faq-page" id="faq">
+			<div className="faq-page__container _container" ref={ref}>
+				<h1 className="faq-page__header header-text" data-aos="fade-up">FAQ</h1>
+				<div className="faq-page__descriptions">
 					<Card question="Why trade $NAFO instead of donating to Ukraine?"
 					    answer="We completely support everyone who wants to donate to Ukraine directly instead of speculating on the $NAFO price. However, the aim of $NAFO is to add an additional stream of income for the Ukrainian relief, which otherwise would be spent on trading memecoins with zero purpose."
 						inView ={inView}

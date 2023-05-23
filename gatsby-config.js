@@ -4,7 +4,7 @@ module.exports = {
     title: `NAFO`,
     description: `The $NAFO token helps Ukrainian people and Ukrainian forces in their fight against the invaders. Buy $NAFO to become a fella and contribute to Ukraine's victory and well-being. Stop wasting your money on useless memecoins and make a real impact instead!`,
     author: `@jonh`,
-    siteUrl: `https://nafo.vip/`,
+    siteUrl: `https://nafo.vip`,
   },
   plugins: [
     `gatsby-transformer-remark`,
@@ -25,11 +25,9 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#1D1D1D`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-         theme_color: `#1D1D1D`,
+        theme_color: `#1D1D1D`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`,
       },
     },
     {

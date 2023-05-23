@@ -1,32 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { debounce } from 'lodash';
+import React from 'react';
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { Home, About, Buy,Tokenomic, Faq, Contact } from '../components/lending';
 
 const IndexPage = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-	const handleResize = debounce(() => {
-    setIsMobile(window.innerWidth < 820);
-  }, 300);
-  useEffect(() => {
-    window.addEventListener('resize', handleResize);
-    handleResize(); 
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    
-  }, []);
   return (
-    <Layout isMobile={isMobile}>
-       <Home isMobile={isMobile} />
-       <About isMobile={isMobile} />
-       <Buy isMobile={isMobile} />
-       <Tokenomic isMobile={isMobile} />
+    <Layout>
+       <Home />
+       <About />
+       <Buy />
+       <Tokenomic />
        <Faq />
-       <Contact isMobile={isMobile} />
+       <Contact />
     </Layout>
   )
 }

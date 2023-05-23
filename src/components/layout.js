@@ -5,7 +5,7 @@ import "../theme/style.css";
 import Header from "./lending/header-page/header";
 import Footer from "./lending/footer-page/footer";
 
-const Layout = ({ children, isMobile }) => {
+const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -17,11 +17,11 @@ const Layout = ({ children, isMobile }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} isMobile={isMobile} />
+    <div className="wrapper">
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main className="__main">{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
 
