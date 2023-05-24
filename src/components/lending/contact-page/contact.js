@@ -12,7 +12,7 @@ export const Contact = ({ siteTitle }) => {
 						<Slide left duration={2000}><StaticImage src="../../../images/contact/meme.png" alt="meme" layout="fixed" placeholder="blurred" quality={100} /></Slide>
 					</div>
 					<div className="row__contents">
-						<h1 className="contact-page__header header-text" data-aos="fade-up">CONTACT</h1>
+						<h1 className="contact-page__header header-text" data-aos="fade-up">JOIN $NAFO ARMY</h1>
 						<ul className="contact-page__socials">
 							<Fade duration={2500}>
 								<li>
