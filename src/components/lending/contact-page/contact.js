@@ -16,13 +16,13 @@ export const Contact = ({ siteTitle }) => {
 						<ul className="contact-page__socials">
 							<Fade duration={2500}>
 								<li>
-									<a href="https://t.me/nafovip"><Icon name="tg" fould="contact" width={52} height={52} /></a>
+									<a href="https://t.me/nafovip" target="_blank" ><Icon name="tg" fould="contact" width={52} height={52} /></a>
 								</li>
 								<li>
-									<a href="https://twitter.com/nafovip"><Icon name="tw" fould="contact" width={52} height={52} /></a>
+									<a href="https://twitter.com/nafovip" target="_blank" ><Icon name="tw" fould="contact" width={52} height={52} /></a>
 								</li>
 								<li>
-									<a href="https://discord.gg/4EkR6ENvaE"><Icon name="disc" fould="contact" width={61} height={61} /></a>
+									<a href="https://discord.gg/CEeeFkyW" target="_blank" ><Icon name="disc" fould="contact" width={61} height={61} /></a>
 	                            </li>
 							</Fade>
 						</ul>
