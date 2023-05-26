@@ -27,7 +27,7 @@ export const Home = ({ siteTitle }) => {
 								<a href="https://t.me/nafovip" target="_blank"><Icon name="tg" fould="home" width={45} height={34} /></a>
 							</li>
 							<li className="soc-medias__link">
-								<a href="https://discord.gg/UrR7uSNn" target="_blank"><Icon name="ds" fould="home" width={34} height={34} /></a>
+								<a href="https://discord.gg/CEeeFkyW" target="_blank"><Icon name="ds" fould="home" width={34} height={34} /></a>
 							</li>
 							<li className="soc-medias__link">
 								<a href="https://www.dextools.io/app/en/ether/pair-explorer/0x1e368d14ec562dcc27fad06cdb1a17d6a8facf34" target="_blank"><Icon name="dex" fould="home" width={34} height={34} /></a>
